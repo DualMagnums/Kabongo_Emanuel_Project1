@@ -1,0 +1,55 @@
+/* We typically use one CSS file, named main.css to control all of our pages */
+
+/* this is a class we use to hide headings in our design */
+.hidden {
+    display: none;
+    border: 5px;
+}
+
+#heading {
+	color: rgb(0, 0, 0);
+    border: 5px solid black;
+	text-align: center;
+    width: 800px;
+	margin: auto;
+
+}
+
+h2 {
+    font-family: 'Carter One', cursive;
+    color: white;
+    background-color: rgb(79, 79, 130);
+    padding: 10px;
+    font-size: 50px;
+    text-shadow: black 3px 3px 1px;
+}
+
+#main-content {
+    font-family: 'Alata', sans-serif;
+	color: rgb(255, 255, 255);
+    text-shadow: black 5px 1px;
+    background:rgb(0, 0, 0) url(/img/letters.jpg);
+	border: 5px solid black;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    width: 800px;
+    margin: auto;
+}
+
+h3 {
+    font-family: 'Carter One', cursive;
+    color: white;
+    background-color: rgb(79, 79, 130);
+    border: 5px solid black;
+    padding: 7px;
+    font-size: 25px;
+    text-shadow: black 2px 2px 1px;
+}
+
+main {
+    margin: 10px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
